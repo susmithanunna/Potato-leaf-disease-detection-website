@@ -15,7 +15,7 @@ UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 
 # Load your pre-trained Keras model
-model = load_model(r'model1 (1).h5')
+model = load_model(r'C:\Users\susmi\OneDrive\Desktop\p1\plant\model1 (1).h5')
 
 # Function to check if a file has an allowed extension
 def allowed_file(filename):
